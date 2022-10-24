@@ -32,7 +32,7 @@ class KonvertDollar {
 public class Quiz {
     public static void main(String[] args) {
         nama();
-        DecimalFormat db = new DecimalFormat("#.###");
+        DecimalFormat db = new DecimalFormat("#.#######");
         KonvertDollar coba = new KonvertDollar();
         Scanner input = new Scanner(System.in);
         System.out.print("Uang rupiah anda: ");
